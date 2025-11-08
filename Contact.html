@@ -9,12 +9,9 @@
 </head>
 <body>
   <header>
-    <div class="menu-toggle" id="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
     <div class="logo">Web<span> Portfolio</span></div>
     <nav class="navbar">
-      <a href="Home.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="About.html">About</a>
       <a href="Contact.html" class="active">Contact</a>
     </nav>
@@ -56,15 +53,6 @@
 
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-  <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const navbar = document.getElementById('navbar');
-
-    menuToggle.addEventListener('click', () => {
-      navbar.classList.toggle('show');
-      menuToggle.querySelector('i').classList.toggle('fa-bars');
-      menuToggle.querySelector('i').classList.toggle('fa-times');
-    });
-  </script>
 </body>
+
 </html>
