@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Web<span> Portfolio</span></div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <a href="Home.html">Home</a>
+      <a href="About.html" class="active">About</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-content about-page">
+    <h1><span>About</span> Me</h1>
+
+    <section class="info-card">
+      <h2>Professional Summary</h2>
+      <p>
+        I'm a passionate and creative individual who enjoys exploring new technologies and transforming ideas into modern web experiences.
+        I strive to design websites that are not only functional but also visually engaging and user-friendly.
+      </p>
+    </section>
+
+    <section class="info-card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS (Front-End Design)</li>
+        <li>Computer Troubleshooting</li>
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Basic Phython</li>
+        <li>Basic C++</li>
+        <li>Basic C</li>
+        <li>Basic C#</li>
+      </ul>
+    </section>
+
+    <section class="info-card">
+      <h2>Education</h2>
+      <p>
+        <strong>Senior High School Diploma</strong><br>
+        Buenaventura Alandy National High School, Tayabas City<br>
+        Graduated: May 2025<br>
+        <strong>BS in Information Technology</strong><br>
+        CSTC inc., Sariaya Quezon Prov.<br>
+        November 2025 - Present
+      </p>
+    </section>
+
+    <section class="info-card">
+      <h2>Excellence & Awards</h2>
+      <ul>
+        <li>Best in Work Immersion</li>
+        <li>NCII Passer</li>
+      </ul>
+    </section>
+
+    <section class="info-card">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Basketball</li>
+        <li>Photography</li>
+        <li>Watching Movies</li>
+        <li>Camping</li>
+        <li>Motorcycling</li>
+        <li>Camping</li>
+        <li>Video Games</li>
+      </ul>
+    </section>
+
+    <section class="info-card">
+      <h2>Work Experience</h2>
+      <p>
+         Dishwasher (Part-Time)<br>
+         Rodillas Yema Cake, Tayabas City<br>
+         June 2024 - August 2024
+      </p>
+    </section>
+
+    <section class="info-card">
+      <h2>Projects Accomplished</h2>
+      <ul>
+        <li>Personal Portfolio Website (HTML & CSS)</li>
+        <li>Created a basic inventory system using Excel</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/agaricus_head?igsh=dmYzazBxMGg1aHBi&utm_source=qr" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/luckyvive.zafranco.5" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=luckyzafranco@gmail.com" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+639098615597" class="icon" title="If You Need me just call me!"><i class="fas fa-phone"></i></a>
+      </div>
+      <p>© 2025 Lucky Vive Zafranco. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('show');
+      menuToggle.querySelector('i').classList.toggle('fa-bars');
+      menuToggle.querySelector('i').classList.toggle('fa-times');
+    });
+  </script>
+
+</body>
+</html>
